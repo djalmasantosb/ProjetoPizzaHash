@@ -25,15 +25,15 @@ html {
   scroll-behavior: smooth;
 }
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
   width: 0.8rem;
 }
 
-html::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track {
   background: transparent;
 }
 
-html::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb {
   background: #fff;
   border-radius: 5rem;
 }
@@ -75,7 +75,7 @@ section {
 
 /* HEADER */
 
-.header{
+.header {
   background: var(--bg);
   display: flex;
   align-items: center;
@@ -89,18 +89,18 @@ section {
   z-index: 1000;
 }
 
-.header .logo img{
+.header .logo img {
   height: 6.5rem;
   border-radius: 100%;
 }
 
-.header .navbar a{
+.header .navbar a {
   margin: 0 1rem;
   font-size: 1.6rem;
   color: #fff;
 }
 
-.header .navbar a:hover{
+.header .navbar a:hover {
   color: var(--main-color);
   border-bottom: 0.1rem solid var(--main-color);
   padding-bottom: 0.5rem;
@@ -121,11 +121,11 @@ section {
   font-size: 2.5rem;
 }
 
-.header .icons div ion-icon:hover{
+.header .icons div ion-icon:hover {
   color: var(--main-color);
 }
 
-#menu-btn{
+#menu-btn {
   display: none;
 }
 
@@ -142,7 +142,7 @@ section {
   border: var(--border);
 }
 
-.home::before{
+.home::before {
   content: '';
   position: absolute;
   top: 0;
@@ -153,19 +153,19 @@ section {
   z-index: 1;
 }
 
-.home .content{
+.home .content {
   max-width: 60rem;
   position: relative;
   z-index: 2;
 }
 
-.home .content h3{
+.home .content h3 {
   font-size: 6rem;
   text-transform: uppercase;
   color: #fff;
 }
 
-.home .content p{
+.home .content p {
   font-size: 2rem;
   font-weight: lighter;
   line-height: 1.8;
@@ -175,32 +175,32 @@ section {
 
 /* ABOUT / SOBRE */
 
-.about .row{
+.about .row {
   display: flex;
   align-items: center;
   background: var(--bg-card);
   flex-wrap: wrap;
   border: var(--border);
 }
-.about .row .image{
+.about .row .image {
   flex: 1 1 45rem;
 }
 
-.about .row .image img{
+.about .row .image img {
   width: 100%;
 }
 
-.about .row .content{
+.about .row .content {
   flex: 1 1 45rem;
   padding: 2rem;
 }
 
-.about .row .content h3{
+.about .row .content h3 {
   font-size: 3rem;
   color: #fff;
 }
 
-.about .row .content p{
+.about .row .content p {
   font-size: 1.6rem;
   color: #ccc;
   padding: 1rem 0;
@@ -209,154 +209,154 @@ section {
 
 /* MENU */
 
-.menu .box-container{
+.menu .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 
-.menu .box-container .box{
+.menu .box-container .box {
   padding: 5rem;
   text-align: center;
   border: var(--border);
   background: var(--bg-card);
 }
 
-.menu .box-container .box img{
+.menu .box-container .box img {
   height: 18rem;
   border-radius: 100%;
 }
 
-.menu .box-container .box h3{
+.menu .box-container .box h3 {
   color: #fff;
   font-size: 2rem;
   padding: 1rem 0;
 }
 
-.menu .box-container .box .price{
+.menu .box-container .box .price {
   color: #fff;
   font-size: 2.5rem;
   padding: 0.5rem 0;
 }
 
-.menu .box-container .box .price span{
+.menu .box-container .box .price span {
   font-size: 1.5rem;
   text-decoration: line-through;
   font-weight: lighter;
 }
 
-.menu .box-container .box:hover{
+.menu .box-container .box:hover {
   background: #fff;
 }
 
-.menu .box-container .box:hover > *{
+.menu .box-container .box:hover > * {
   color: #000;
 }
 
 /* PRODUCTS / PROMOÇÕES */
 
-.products .box-container{
+.products .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 
-.products .box-container .box{
+.products .box-container .box {
   padding: 2rem;
   text-align: center;
   border: var(--border);
 }
 
-.products .box-container .box .icons a ion-icon{
-   height: 3rem;
-   width: 3rem;
-   line-height: 3rem;
-   font-size: 1.7rem;
-   border: var(--border);
-   color: #fff;
-   margin: 0.3rem;
+.products .box-container .box .icons a ion-icon {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  font-size: 1.7rem;
+  border: var(--border);
+  color: #fff;
+  margin: 0.3rem;
 }
 
-.products .box-container .box .icons a ion-icon:hover{
+.products .box-container .box .icons a ion-icon:hover {
   background: var(--main-color);
 }
 
-.products .box-container .box .image{
+.products .box-container .box .image {
   padding: 2.5rem 0;
 }
 
-.products .box-container .box .image img{
+.products .box-container .box .image img {
   height: 25rem;
 }
 
-.products .box-container .box .content h3{
+.products .box-container .box .content h3 {
   color: #fff;
   font-size: 2rem;
   padding: 1rem 0;
 }
 
-.products .box-container .box .content .stars{
+.products .box-container .box .content .stars {
   padding: 1.5rem;
 }
 
-.products .box-container .box .content .stars i{
+.products .box-container .box .content .stars i {
   font-size: 1.9rem;
   color: var(--main-color);
 }
 
-.products .box-container .box .content .price{
+.products .box-container .box .content .price {
   color: #fff;
   font-size: 2.5rem;
   padding: 0.5rem 0;
 }
 
-.products .box-container .box .content .price span{
+.products .box-container .box .content .price span {
   font-size: 1.5rem;
   font-weight: lighter;
 }
 
 /* REVIEW / AVALIAÇÕES */
 
-.review .box-container{
+.review .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 
-.review .box-container .box{
+.review .box-container .box {
   padding: 3rem 2rem;
   text-align: center;
   border: var(--border);
 }
 
-.review .box-container .box p{
+.review .box-container .box p {
   font-size: 1.7rem;
   line-height: 1.8;
   color: #ccc;
   padding: 2rem 0;
 }
 
-.user{
+.user {
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.review .box-container .box h3{
+.review .box-container .box h3 {
   color: #fff;
   font-size: 2.2rem;
   padding: 1rem 0;
 }
 
-.review .box-container .box .stars i{
+.review .box-container .box .stars i {
   font-size: 1.7rem;
   color: var(--main-color);
 }
 
 /* FOOTER / RODAPÉ */
 
-.heading-footer{
+.heading-footer {
   text-align: center;
   text-transform: uppercase;
   font-size: 2rem;
@@ -364,67 +364,67 @@ section {
   margin-bottom: 1.5rem;
 }
 
-.heading-footer span{
+.heading-footer span {
   color: var(--main-color);
   text-transform: uppercase;
 }
 
-.footer{
+.footer {
   background: var(--bg);
   text-align: center;
   padding: 4rem 0;
 }
 
-.footer .container{
+.footer .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 7%;
 }
 
-.footer-col{
+.footer-col {
   flex: 1 1 25;
   margin: 1rem;
 }
 
-.footer-col ul{
+.footer-col ul {
   list-style: none;
   padding: 0;
 }
 
-.footer-col ul li{
+.footer-col ul li {
   margin-bottom: 1rem;
 }
 
-.footer-col ul li a{
+.footer-col ul li a {
   color: #ccc;
   text-decoration: none;
   font-size: 1.6rem;
   transition: color 0.3s;
 }
 
-.footer-col ul li a:hover{
+.footer-col ul li a:hover {
   color: var(--main-color);
 }
 
-.social-links{
+.social-links {
   display: flex;
   gap: 1rem;
   justify-content: center;
   margin-top: 1.5rem;
 }
 
-.footer .social-links a{
+.footer .social-links a {
   color: #ccc;
   font-size: 3rem;
   transition: color 0.3s;
 }
 
-.footer .social-links a:hover{
+.footer .social-links a:hover {
   color: var(--main-color);
 }
 
-.footer-bottom{
+.footer-bottom {
   text-align: center;
   padding: 1rem 0;
   font-size: 1.6rem;
@@ -433,26 +433,26 @@ section {
   color: #ccc;
 }
 
-@media(max-width: 991px){
-  html{
+@media (max-width: 991px) {
+  html {
     font-size: 55%;
   }
 
-  header{
+  header {
     padding: 1.5rem 2rem;
   }
 
-  section{
+  section {
     padding: 2rem;
   }
 }
 
-@media(max-width: 768px){
-  #menu-btn{
+@media (max-width: 768px) {
+  #menu-btn {
     display: inline-block;
   }
 
-  .header .navbar{
+  .header .navbar {
     position: absolute;
     top: 100%;
     right: -100%;
@@ -469,24 +469,23 @@ section {
     font-size: 2rem;
   }
 
-  .home{
+  .home {
     background-position: left;
     justify-content: center;
     text-align: center;
   }
 
-  .home .content h3{
+  .home .content h3 {
     font-size: 4.5rem;
   }
 
-  .home .content p{
-    font-size: 1.5rem;
+  .home .content p {
+    font-size: 2rem;
   }
 }
 
-@media(max-width: 450px){
-  html{
+@media (max-width: 450px) {
+  html {
     font-size: 50%;
   }
-
 }
